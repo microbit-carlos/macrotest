@@ -9,6 +9,8 @@
     "files": [
         "main.blocks",
         "main.ts",
+        "macrotest.cpp",
+        "macrotest.ts",
         "README.md"
     ],
     "testFiles": [
