@@ -3,8 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
@@ -13,9 +13,6 @@
         "macrotest.ts",
         "README.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
     "targetVersions": {
         "target": "6.1.5",
         "targetId": "microbit"
@@ -23,5 +20,18 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "codal": {
+                "MICROBIT_BLE_UTILITY_SERVICE": 1,
+                "MICROBIT_BLE_UTILITY_SERVICE_PAIRING": 1,
+                "RANDOM_MACRO_IN_YOTTA_CONFIG_CODAL": 1
+            },
+            "microbit-dal": {
+                "RANDOM_MACRO_IN_YOTTA_CONFIG_MICROBITDAL": 1
+            },
+            "RANDOM_MACRO_IN_YOTTA_CONFIG": 1
+        }
+    }
 }
