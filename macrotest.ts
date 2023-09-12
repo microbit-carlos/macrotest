@@ -2,7 +2,7 @@
 namespace macrotest {
     //% shim=macrotest::print_macros
     //% block="print macros to serial"
-    export function printMacros() {
+    export function printMacros(): void {
         return;
     }
 }

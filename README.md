@@ -1,4 +1,11 @@
-# Printing C++ macros project
+# MakeCode project that prints C++ macros
+
+This project can be imported into MakeCode and modified in the online editor
+as needed.
+
+Unfortunately the online editor does not allow users to create .cpp files, so
+a project from GitHub or a share link has to be opened to be able to edit
+existing cpp files.
 
 ## Edit this project
 
